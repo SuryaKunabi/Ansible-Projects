@@ -15,9 +15,11 @@ Instead of installing Nginx manually, an Ansible playbook is used to perform the
 ## Project Structure:
 ansible-nginx/
 │
-├── inventory      # Remote server details
-├── nginx.yml      # Ansible playbook
-└── README.md      # Project documentation
+├── inventory       # Remote server details
+│
+├── nginx.yml       # Ansible playbook
+│
+└── README.md       # Project documentation
 
 ## Tasks Performed
 The Ansible playbook:
