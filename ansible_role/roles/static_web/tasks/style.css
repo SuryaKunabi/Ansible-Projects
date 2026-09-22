@@ -1,0 +1,275 @@
+/* =====================================================
+   GENERAL STYLES
+   ===================================================== */
+
+/* Remove default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   HEADER
+   ===================================================== */
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+/* Space below the main heading */
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+/* =====================================================
+   NAVIGATION BAR
+   ===================================================== */
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+
+/* Change link appearance when mouse is over it */
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* =====================================================
+   HOME PAGE
+   ===================================================== */
+
+.hero {
+    text-align: center;
+
+    /* Adds space around the content */
+    padding: 100px 20px;
+
+    /* Minimum height of the section */
+    min-height: 450px;
+}
+
+
+/* Main heading */
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+/* Paragraph inside hero section */
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+}
+
+
+/* =====================================================
+   BUTTON
+   ===================================================== */
+
+.button {
+    display: inline-block;
+
+    background-color: #333;
+    color: white;
+
+    padding: 12px 20px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+
+/* Button hover effect */
+.button:hover {
+    background-color: #555;
+}
+
+
+/* =====================================================
+   COMMON CONTAINER
+   ===================================================== */
+
+.container {
+    max-width: 900px;
+
+    /* Center the container */
+    margin: 40px auto;
+
+    padding: 20px;
+}
+
+
+/* =====================================================
+   SERVICES
+   ===================================================== */
+
+.service {
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+
+    /* Small shadow around the service card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.service h2 {
+    margin-bottom: 10px;
+}
+
+
+/* =====================================================
+   CONTACT
+   ===================================================== */
+
+.contact {
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    border-radius: 8px;
+}
+
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+
+/* =====================================================
+   FORM
+   ===================================================== */
+
+form {
+    display: flex;
+
+    /* Arrange form elements vertically */
+    flex-direction: column;
+}
+
+
+/* Labels */
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* Text input and textarea */
+input,
+textarea {
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+
+/* Submit button */
+button {
+    margin-top: 20px;
+
+    padding: 12px;
+
+    background-color: #333;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Button hover effect */
+button:hover {
+    background-color: #555;
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+footer {
+    background-color: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+}
+
+
+/* =====================================================
+   MOBILE RESPONSIVENESS
+   ===================================================== */
+
+/* These styles apply to smaller screens */
+@media (max-width: 600px) {
+
+    /* Make navigation links easier to read */
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+
+    /* Reduce home page heading size */
+    .hero h2 {
+        font-size: 28px;
+    }
+
+
+    /* Reduce hero section spacing */
+    .hero {
+        padding: 70px 20px;
+    }
+
+}
